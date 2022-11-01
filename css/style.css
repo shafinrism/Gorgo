@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+/* header section css */
+header{
+    width: 100%;
+    padding: 20px 0px;
+   
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.h-1 img{
+    vertical-align: middle;
+}
+.h-1 ul{
+    display: inline-block;
+    margin-left: 25px;
+}
+.h-1 ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 12px;
+}
+.h-1 li a{
+    font-size: 18px;
+    color: rgb(31, 30, 30);
+    transform: 0.5s;
+    
+}
+.h-1 li a:hover{
+    color:darkorange;
+    transform: 0.5s;
+    font-style: oblique;
+}
+.btn{
+    background-color: #FF6464;
+    color: white;
+    padding: 16px 22px;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: 0.5s;
+    display: inline-block;
+    margin-right: 92px;
+    
+   
+ 
+   
+    
+}
+.btn:hover{
+    background-color:#5837D0;
+    transition: 0.5s;
+}
+/* banner section css */
+.banner{
+    width: 100%;
+    padding: 120px 0px;
+}
+.bot{
+    display: flex;
+}
+.b-left{
+    flex-basis: 50%;
+}
+.b-left h1{
+    font-size: 50px;
+    line-height: 1.3;
+    margin-bottom: 16px;
+}
+.b-left p{
+    font-size: 16px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    color: dimgrey;
+    text-transform: inherit;
+}
+.b-left a i{
+    height:30px ;
+    width: 30px;
+    line-height:30px ;
+    color:#bebebe ; 
+    border-radius:100% ;
+    text-align: center;
+    border: 2px solid #bebebe;
+    transition: 0.5s;
+
+
+}
+.b-left a i:hover{
+    background-color: gold;
+    color: black;
+    border: 2px solid gold;
+    transition: 0.5s;
+    transform: rotate(360deg);
+  
+}
+/* banner-2 css section */
+.banner-2{
+    width: 100%;
+    padding: 40px 0px;
+   
+}
+.b-2-left{
+    text-align: center;
+    
+}
+.b-2-left h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+    
+
+}
+.b-2-left p{
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 30px;
+    color: #bebebe;
+}
+.b-2-right{
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+  
+    
+}
+/* feature section css */
+.features{
+    width: 100%;
+    padding: 40px 0px;
+}
+.f-left{
+    text-align: center;
+    margin-bottom: 42px;
+
+}
+.f-left h2{
+    font-size: 30px;
+    color: rgb(46, 34, 34);
+    margin-bottom: 10px;
+
+}
+.f-left p{
+    font-size: 16px;
+    color:#bebebe;
+    font-style: italic;
+
+}
+.f-right{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+     grid-row-gap:25px ;
+     grid-column-gap: 20px;
+}
+.pot{
+    background-color: rgb(199, 196, 196);
+    padding: 25px 15px;
+    border-radius: 8px;
+    transition: 1s;
+
+    
+}
+.pot i{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background-color: white;
+    color: red;
+    text-align: center;
+    border-radius: 100%;
+    
+
+}
+.pot h3{
+    margin: 16px 0px;
+    color: #4e4e4e;
+
+
+
+}
+.pot p{
+    font-size: 16px;
+    color: gray;
+
+    
+   
+}
+.pot:hover{
+    background-color: tomato;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    transition: 1s;
+    
+}
+.pot:hover p,.pot:hover h3{
+    color: white;
+}
+/* footer section css */
+.last-f{
+    width: 100%;
+    padding: 40px 0px;
+    background-color:rgb(100, 1, 100);
+    text-align: center;
+    margin-top: 80px;
+    
+}
+.t-foot h2{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 40px;
+
+}
+.butn{
+    background-color: #FF6464;
+    color: white;
+    padding: 16px 22px;
+    font-weight: 600;
+    border-radius: 6px;
+    display: inline-block;
+
+}
+.b-foot img{
+    margin-top: 20px;
+}
+
